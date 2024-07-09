@@ -1,14 +1,14 @@
 body {
-    background-color: rgb(101, 177, 236);
+    background-color: rgba(10, 175, 235, 0.8);
   }
   
   h1 {
-    color: navy;
+    color: rgba(10, 175, 235, 0.8);
     text-align: center;
   }
 
   h2 {
-    color: navy;
+    color: rgba(10, 175, 235, 0.8);
     text-align: center;
   }
 
@@ -29,7 +29,7 @@ body {
     max-height: 20%;
   }
 
-  .banner {
+.banner {
     background-image: url('Images/mc_6.30.20_rainbow_pano.png');
     background-size: cover; 
     background-position: center; 
@@ -40,10 +40,14 @@ body {
     justify-content: center; 
     color: white; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-
+}
 
 .banner h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 3em; 
+      margin: 0;
+      padding: 0;
+      font-size: 3em; 
+  }
+
+header {
+  color: grey
 }
