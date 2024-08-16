@@ -33,13 +33,12 @@ body {
   }
 
   nav{
-    float: left;
+    align-items: left;
     line-height: 100px;
   }
 
   .links{
-    float: right;
-    line-height: 100px;
+    align-items: right;
   }
 
   .photo{
