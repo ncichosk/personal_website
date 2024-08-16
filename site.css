@@ -1,25 +1,25 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #1c1c1c;
-  color: #f0f0f0;
+  background-color: rgb(232, 214, 203);
+  color: rgb(45, 45, 42);
 }
 
 h1, h2 {
-  color: rgba(240, 240, 240, 0.9);
+  color: rgb(45, 45, 42);
   text-align: center;
   margin: 0.5em 0;
 }
 
 p {
-  color: #e0e0e0;
+  color: rgb(45, 45, 42);
   margin-left: 20px;
 }
 
 header {
   height: 100px;
   width: 100%;
-  background: rgba(30, 30, 30, 0.9);
+  background: rgb(232, 214, 203);
   position: sticky;
   top: 0; 
   display: flex;
@@ -57,14 +57,14 @@ nav {
 }
 
 .photo h1 {
-  color: #f0f0f0; 
+  color: rgb(45, 45, 42); 
 }
 
 a {
-  color: #ff9900; 
+  color: rgb(76, 76, 71); 
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffcc00; 
+  color: rgb(5, 142, 217); 
 }
