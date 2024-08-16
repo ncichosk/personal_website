@@ -35,12 +35,15 @@ header {
 
 nav {
   display: flex;
-  align-items: center;
   line-height: normal;
 }
 
-.links {
+.sections{
   margin-left: auto;
+}
+
+.links {
+  margin-right: auto;
 }
 
 .photo {
@@ -52,7 +55,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(45, 45, 42);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
