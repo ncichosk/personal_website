@@ -1,5 +1,5 @@
 body {
-  margin: 10px;
+  margin: 0px;
   padding: 0;
   background-color: rgb(232, 214, 203);
   color: rgb(45, 45, 42);
@@ -17,6 +17,7 @@ p {
 }
 
 header {
+  margin: 20px;
   height: 50px;
   width: 100%;
   background: rgb(232, 214, 203);
