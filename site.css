@@ -128,14 +128,14 @@ nav a:hover { color: var(--sky); }
   height: auto;
   filter: grayscale(100%);
   filter: brightness(0);
-  opacity: 0.5;
+  opacity: 1;
   transition: opacity 0.15s ease;
 }
 
 .links a:hover img { 
   filter: grayscale(100%);
   filter: brightness(0);
-  opacity: 1; 
+  opacity: 0.5; 
 }
 
 /* ==========================================================================
