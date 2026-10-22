@@ -3,8 +3,9 @@
    ========================================================================== */
 :root {
   /* Colors */
-  --paper:      #eef1ee;   /* background color*/
+  --paper:      #e1e7e3;   /* background color*/
   --paper-deep: #e1e7e3;   /* secondary background */
+  --header-grey: #424242;   /* header background */
   --ink:        #1f2a33;   /* main text */
   --slate:      #536370;   /* secondary text */
   --sky:        #1f6fb2;   /* link color */
@@ -86,7 +87,7 @@ header {
   top: 0;
   z-index: 100;
   min-height: var(--header-h);
-  background: rgba(238, 241, 238, 0.92); /* paper color with 92% opacity */
+  background: rgba(66, 66, 66, 0.5); /* paper color with 92% opacity */
 }
 
 .banner {
