@@ -5,7 +5,7 @@ class GlobalHeader extends HTMLElement {
             <div class="banner">
                 <nav>
                     <div class="sections">
-                        <a href="#"><b>About Me</b></a>
+                        <a href="/pages/about.html"><b>About Me</b></a>
                         <a href="#"><b>Project</b></a>
                         <a href="#"><b>Contact</b></a>
                     </div>

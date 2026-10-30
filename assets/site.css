@@ -140,9 +140,10 @@ nav a:hover { color: var(--sky); }
 }
 
 /* ==========================================================================
-   Photo
+   Home Photos
    ========================================================================== */
-.photo {
+/* Homepage banner photo section */
+.homepage-photo {
   position: relative;
   display: flex;
   align-items: center;
@@ -156,7 +157,7 @@ nav a:hover { color: var(--sky); }
 }
 
 /* darkens the bottom so the name stays readable on any photo */
-.photo::before {
+.homepage-photo::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -166,7 +167,7 @@ nav a:hover { color: var(--sky); }
     rgba(18, 26, 33, 0) 75%);
 }
 
-.photo h1 {
+.homepage-photo h1 {
   position: relative;
   width: 100%;
   max-width: 72rem;
@@ -177,6 +178,14 @@ nav a:hover { color: var(--sky); }
   color: var(--paper-deep);
   text-align: center;
 }
+
+
+/* ==========================================================================
+   About Photos
+   ========================================================================== */
+/* Headshot photo section */
+
+
 
 /* ==========================================================================
    Content
